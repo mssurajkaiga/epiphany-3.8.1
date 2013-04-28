@@ -1,0 +1,27 @@
+#ephy-status-frame {
+  border-style: solid;
+  border-width: 1px;
+  padding: 4px;
+}
+
+#ephy-tab-close-button {
+  -GtkButton-default-border: 0;
+  -GtkButton-default-outside-border: 0;
+  -GtkButton-inner-border: 0;
+  -GtkWidget-focus-padding: 0;
+  -GtkWidget-focus-line-width: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-toolbar.toolbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#fullscreen-popup {
+    background-color: alpha (black, 0.7);
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}

@@ -1,0 +1,161 @@
+/* Global CSS for pages */
+
+h1 {
+        color: #babdb6;
+        text-shadow: 0 1px 0 white;
+        margin-bottom 0;
+}
+
+body {
+        font: 11pt cantarell;
+        color: #2e3436;
+        padding: 20px 20px 0 20px;
+        background-color: #f6f6f4;
+        background-image: -webkit-gradient(
+                linear,
+                left top,
+                left bottom,
+                color-stop(0, #eeeeec),
+                color-stop(1, #f6f6f4)
+        );
+        background-size: 100% 5em;
+        background-repeat: no-repeat;
+}
+
+
+/* about:plugins */
+
+#plugin-table
+{
+    margin-top: 10px;
+    width: 96%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#plugin-table th
+{
+    padding: 6px;
+    background: #565051;
+    border: 2px solid #565051;
+    color: #f6f6f4;
+    width: 33%;
+}
+
+#plugin-table td
+{
+    padding: 4px;
+    background: #f6f6f4;
+    border-bottom: 1px solid #d3d7cf;
+    color: #2e3436;
+    border-top: 1px solidtransparent;
+}
+
+#plugin-table tr:hover td
+{
+    background: #d3d7cf;
+    color: #2e3436;
+}
+
+/* about:epiphany */
+
+#ephytext {
+  margin-top: 15%;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+#from {
+  margin-top: 1em;
+  font-size: 1.5em;
+  text-align: right;
+}
+
+/* about:memory */
+
+.memory-table caption
+{
+    font-size: 16pt;
+    font-weight: bold;
+    margin-bottom: 0.9em;
+    color: #2e3436;
+    text-shadow: 0 1px 0 white;
+}
+
+.memory-table
+{
+    margin: 0 12.5% 0.9em 12.5%;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.memory-table th
+{
+    padding: 4px;
+    background: #565051;
+    border: 2px solid #565051;
+    color: #f6f6f4;
+}
+
+.memory-table td
+{
+    padding: 2px;
+    background: #f6f6f8;
+    border-bottom: 1px solid #d3d7cf;
+    color: #2e3436;
+    border-top: 1px solidtransparent;
+    width: 16%;
+}
+
+.memory-table tr:hover td
+{
+    background: #d3d7cf;
+    color: #2e3436;
+}
+
+
+/* about:applications */
+
+.applications-body table { width: 100%; border-collapse: collapse; }
+
+.applications-body table, td { 
+	border: 1px solid #d3d7cf;
+	border-left: none; border-right: none;
+}
+
+.applications-body p { margin-bottom: 30px; }
+.applications-body td { padding: 15px 15px;}
+.applications-body td.icon { width: 64px; }
+.applications-body td.datas { width: 200px; }
+.applications-body td.input { width: 64px; }
+.applications-body td.date { width: auto; text-align: right; font-style: italic; font-size: small; }
+.applications-body .appname { font-weight: bold; }
+.applications-body .appurl, td.date { color: #babdb6; }
+.applications-body input { width: 100%; padding: 8px; }
+
+/* about:incognito */
+
+.incognito-body {
+  margin: 0;
+  padding: 0;
+}
+
+.incognito-body div#mainblock {
+  display: table;
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75%;
+}
+
+.incognito-body div#mainblock>div {
+  margin: 0 10px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 20px 0 160px;
+}
+
+.incognito-body h1 {
+  color: #888a85;
+}
