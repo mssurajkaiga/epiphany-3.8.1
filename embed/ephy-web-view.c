@@ -2015,6 +2015,9 @@ ephy_web_view_location_changed (EphyWebView *view,
 
     ephy_web_view_set_address (view, new_address);
     g_free (new_address);
+  } else if (g_str_has_prefix (location, EPHY_ABOUT_SCHEME":overview")) {
+    ephy_web_view_set_address (view, location);
+    ephy_web_view_set_title (view, NULL);
   } else {
     /* We do this to get rid of an eventual password in the URL. */
     ephy_web_view_set_address (view, location);
